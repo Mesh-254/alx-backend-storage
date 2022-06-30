@@ -1,0 +1,5 @@
+--stored procedure AddBonus that adds a new correction
+DELIMETER $$
+CREATE PROCEDURE AddBonus(users.id as user_id, project.name as project_name)
+BEGIN
+	
